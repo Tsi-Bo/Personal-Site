@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+  <title>Personal Website</title>
+</head>
+
+<body>
+  <section id="hero">
+    <div class="hero-background">
+      <img src="./images/hero-img.jpg" alt="a picture of me" class="hero-img">
+      <img src="./images/left-corner.PNG" alt="right corner ornmentation" class="corner left">
+      <img src="./images/right-corner.PNG" alt="right corner ornmentation" class="corner right">
+      <nav class="hero-btns">
+        <ol>
+          <li><a href="#about"><button class="hero-btn btn2">About</button></a></li>
+          <li><a href="#projects"><button class="hero-btn btn1">Projects</button>
+          </a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section id="projects">
+
+    <h1 id="projects">PROJECTS</h1>
+    <hr>
+    <div class="projects-container">
+      <div class="projects-img-container">
+        <img src="./images/tiger.PNG" alt="a tiger digital painting" class="projects-img">
+      </div>
+
+      <div class="projects-grid">
+        <div class="projects-grid-item">
+          <img src="./images/album.PNG" alt="a music album picture" class="projects-items-img">
+          <p>In 2019 a friend of mine killed himself. I decided to compose and mix an entire album about this subject. The goal was to illustrate melodically the profound implications that come with the act of killing oneself. But I also wanted to emphasize the beauty of life.
+            <p><a href="https://www.youtube.com/watch?v=Ki29n04AJsc" target="_blank">Click here to listen to the album.</a></p>
+          </p>
+        </div>
+        <div class="projects-grid-item">
+          <img src="./images/dog-standing.PNG" alt="a music album picture" class="projects-items-img">
+          <p>During 2020 I discovered my love for 2D illustrations. The world of symbols, the craft of composition and abstracting the essential in an element resonated with me. Ever since, this date, I worked on my illustration skills, participated in a number of events and sold paintings all over Quebec ! 
+            <p><a href="https://www.instagram.com/tsibo_hp/" target="_blank">Click here to see my entire works.</a> </p>
+            
+          </p>
+        </div>
+        <div class="projects-grid-item">
+          <img src="./images/totoro.PNG" alt="a music album picture" class="projects-items-img">
+          <p>In 2019, inspired by great thinkers of ancient times, the idea of writing a philosophical novel emerged. "Mr Beautin" is an observer of the strange world he was brought in. Yet, he is engaged in an never ending quest for truth and happiness. </p>
+        </div>
+        <div class="projects-grid-item">
+          <img src="./images/dog.PNG" alt="a music album picture" class="projects-items-img">
+          <p>Finaly, in 2023 I started interesting myself in the web development world. Since October I have been diving in the world of frontend languages. This is the boldest challenge I've given myself up to date. Yet, I'm in love with the world of creating interactive and responsive websites. 
+            <p> <a href="https://github.com/Tsi-Bo" target="_blank">Click here to see my GitHub profile.</a> 
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-grid">
+        <h1 class="about-grid-item about-grid-title">25 Years Of Learning</h1>
+        <div class="about-grid-item">
+          <h2>Illustration Softwares
+          </h2>
+          <ul>
+            <li>Krita</li>
+            <li>Procreate</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+        <div class="about-grid-item">
+          <h2>Programming languages
+          </h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+      <img src="./images/whale.PNG" alt="a whale digital painting" class="about-img">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>CONTACT</h1>
+    <hr>
+    <div class="contact-container">
+      <div class="contact-info-container">
+        <div class="info-container">
+          <img src="./images/eye.PNG" alt="an eye digital painting" class="personal-info-img">
+          <p>Follow me on these platforms !</p>
+          <button class="contact-btn1"><a href="https://www.instagram.com/tsibo_hp/" target="_blank">Instagram</a></button>
+          <button class="contact-btn2"><a id="github-link" href="https://github.com/Tsi-Bo" target="_blank">GitHub</a></button>
+        </div>
+        <div class="info-container">
+          <img src="images/head.PNG" alt="a face digital painting" class="personal-info-img">
+          <p>581-988-0698 <br>
+          thibault.fernandez <br>
+          Quebec City, QC, CAN
+        </p>
+
+        </div>
+      </div>
+      <div class="contact-input-container">
+        <h2>Hit me up !</h2>
+        <input type="email" placeholder="Your email" class="input-area">
+        <textarea class="input-area" cols="40" rows="10" placeholder="Hey Tsibo, I was thinking about..."></textarea>
+        <input type="submit" value="SEND" id="send-btn">
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer id="footer">
+    <p><a href="https://github.com/Tsi-Bo" target="_blank">GitHub</a></p>
+    <p>Copyrights ©Thibault F. Bedot</p>
+    <p>2023</p>
+  </footer>
+</body>
+</html>
