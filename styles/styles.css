@@ -1,5 +1,6 @@
 html {
   background-color: #393646;
+  min-width: 800px;
 }
 
 p{
@@ -51,6 +52,7 @@ li {
 section {
   margin-top: 0px;
   margin-bottom: 15px;
+  border-radius: 6px;
 }
 
 
@@ -83,6 +85,7 @@ section {
   object-fit: cover;
   position: relative;
   filter: brightness(70%);
+  border-radius: 6px;
 }
 
 .corner {
@@ -194,6 +197,7 @@ button {
   height: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .about-grid {
@@ -353,4 +357,29 @@ font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 background-color: #6D5D6E;
 color: #F4EEE0;
 font-size: 15px;
+}
+
+
+@media screen and (max-width: 930px) {
+  .about-img {
+    width: 200px;
+    height: 200px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+  .projects-img {
+    display: none;
+  }
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+  }
+  #projects {
+    height: 800px;
+    padding: 10px;
+  }
 }
